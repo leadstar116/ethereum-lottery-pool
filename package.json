@@ -1,0 +1,21 @@
+{
+  "name": "inbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "compile": "node compile.js",
+    "deploy": "node deploy.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.0.8",
+    "dotenv": "^16.0.1",
+    "ganache": "^7.2.0",
+    "mocha": "^10.0.0",
+    "solc": "^0.8.13",
+    "web3": "^1.7.3"
+  }
+}
